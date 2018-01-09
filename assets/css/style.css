@@ -1,0 +1,1518 @@
+html,
+body {    
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+:root {
+  font-size: 16px;
+}
+
+.p-init{
+    padding: 0px !important;
+}
+
+.p-right-init{
+    padding-right: 0 !important;
+}
+
+.p-left-init{
+    padding-left: 0 !important;
+}
+
+.m-init{
+    margin: 0px !important;
+}
+
+.hide_from_screen{
+    visibility: hidden;
+}
+
+.m-1{
+    height: 1rem;
+    clear: both;
+    overflow: hidden;
+}
+
+label.error{
+    font-size: 0.5rem;
+    color: red;
+    margin-top: 4px;
+    word-spacing: 1px;
+}
+
+/*::-webkit-scrollbar { 
+    display: none; 
+}*/
+
+
+/*====== Loanmeet Header Style Block ======*/
+
+    #loanmeet-header .navbar{
+        margin-bottom: 0;
+    }
+
+    #myNavbar li a {
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        font-size: 0.8rem;
+        font-weight: bold;
+        /*padding: 0.6rem 0.8rem;*/
+        padding: 0.8em 1em;
+    }
+
+    /*#myNavbar li a:last-child{
+        padding-right: 0;
+    }  */  
+
+    #myNavbar li a:hover{
+        background-color: transparent;
+    }
+
+    #myNavbar .dropdown-menu{
+        background-color: #4ca7df;
+    }
+
+    #myNavbar .dropdown-menu li a{
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+    #myNavbar .dropdown-toggle .caret{
+        margin-top: -3px;
+        margin-left: 6px;
+    }
+
+/*====== Loanmeet Header Style Block ======*/
+
+
+/*====== Loanmeet Banner Style Block ======*/
+
+    #loanmeet_banner_section,
+    #product_banner_section{
+        /*background: rgba(0, 0, 0, 0) url("../img/svg/landing_page_slider1.svg") no-repeat scroll left top / auto;*/
+        width: 100vw;
+        height: 91.5vh;
+        clear: both;
+        overflow: hidden;
+        position: relative;
+    }
+
+    #loanmeet_banner_section .item.first_banner{
+        background: rgba(0, 0, 0, 0) url("../img/png/bg1_1.png") no-repeat scroll center center / cover;
+        /*background: url(../img/svg/bg12.svg) no-repeat top right;
+        background-size: contain;*/
+        width: 100vw;
+        height: 91.5vh;
+        position: relative;
+        -webkit-transition-duration: 4s;
+        -moz-transition-duration: 4s;
+        -o-transition-duration: 4s;
+        transition-duration: 4s;
+    }
+
+    #loanmeet_banner_section .item.second_banner{
+        background: rgba(0, 0, 0, 0) url("../img/png/B1.png") no-repeat scroll center center / cover;
+        /*background: url(../img/svg/bg12.svg) no-repeat top right;
+        background-size: contain;*/
+        width: 100vw;
+        height: 91.5vh;
+        position: relative;
+        -webkit-transition-duration: 4s;
+        -moz-transition-duration: 4s;
+        -o-transition-duration: 4s;
+        transition-duration: 4s;
+    }
+
+    #loanmeet_banner_section .item.third_banner{
+        background: rgba(0, 0, 0, 0) url("../img/png/bg1_3.png") no-repeat scroll center center / cover;
+        /*background: url(../img/svg/bg12.svg) no-repeat top right;
+        background-size: contain;*/
+        width: 100vw;
+        height: 91.5vh;
+        position: relative;
+        -webkit-transition-duration: 4s;
+        -moz-transition-duration: 4s;
+        -o-transition-duration: 4s;
+        transition-duration: 4s;
+    }
+
+
+
+    #loanmeet_banner_section .carousel-caption{
+        /* background-color: red; */
+        width: 26rem;
+        position: absolute;
+        /*bottom: 7rem;*/
+        bottom: 2.5rem;
+        font-weight: bold;
+        left: 48rem;
+        text-shadow: none;
+        padding-bottom: 0;
+        right: 0;
+        padding-top: 0;
+        text-align: left;
+    }
+
+    #loanmeet_banner_section .carousel-caption h4{
+        font-size: 1.1rem;
+        font-weight: bold;
+        line-height: 24px;
+        color: #ffffff;
+    }
+
+    #loanmeet_banner_section .carousel-caption p{
+        margin-bottom: 0px;
+        margin-top: 0.6rem;
+        color: #ffffff;
+        font-size: 0.8rem;
+    }
+
+    #loanmeet_banner_section .carousel-caption p.user_type{
+        font-weight: lighter;
+        margin-top: 0;
+    }
+
+    #loanmeet_banner_section .carousel-indicators{
+        left: 46rem;
+        /*bottom: 5.8rem;*/
+        bottom: 0.5rem;
+        right: 0rem;
+        width: 26rem;
+        margin: 0px;
+        /* background-color: red; */
+    }
+
+    #loanmeet_banner_section .carousel-indicators li{
+        width: 14px;
+        height: 14px;
+        margin: 4px;
+        border: 1px solid #ffffff;
+    }
+
+    .carousel-indicators .active{
+        width: 14px;
+        height: 14px;
+        background-color: #ffffff;
+    }
+
+    #loanmeet_banner_section .banner_img{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+    }
+
+    .banner_text_block{
+        position: absolute;
+        top: 210px;
+        left: 60px;
+    }
+
+    .banner_text_block h1{
+        color: #1568a3;
+        font-size: 2.1rem;
+        margin-bottom: 0;
+            word-spacing: 6px;
+    letter-spacing: 2px;
+    }
+
+    .banner_text_block h3{
+        color: #283e56;
+        font-size: 1.4rem;
+        margin-top: 0.4rem;
+    }
+
+    .apply_btn a{
+        padding: 0.7rem 2.4rem;
+        background-color: #5dcab7;
+        float: right;
+        color: #ffffff;
+        font-size: 1rem;
+    }
+
+    .apply_btn a:hover{
+        text-decoration: none;
+    }
+
+/*====== Loanmeet Banner Style Block ======*/
+
+
+
+/*====== Loanmeet Feature Style Block ======*/
+
+    #loanmeet-features{
+        background: rgba(0, 0, 0, 0) url("../img/svg/B2.svg") no-repeat scroll left top / contain;
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        clear: both;
+        overflow: hidden;
+        /*background-color: red;*/
+    }
+
+    .why_loanmeet_block img.fea_bg{
+        position: absolute;
+        top: 0;
+        right: 0px;
+        height: 100vh;
+        width: 96%;
+        /*background: url(../img/svg/bg2.svg) no-repeat top left;*/
+        /*background: rgba(0, 0, 0, 0) url("../img/png/ref_img2.png") no-repeat scroll left top / auto;*/
+        /*width: auto;
+        height: 100vh;*/
+    }
+
+    .why_loanmeet_title{
+        font-size: 2rem;
+        color: #1568a3;
+        font-weight: bold;
+        margin-bottom: 3.2rem;
+        /*padding-left: 0.8rem;*/
+    }
+
+    .why_loanmeet_text_block{
+        position: absolute;
+        right: 0.5rem;
+        top: 1.5rem;
+    }
+
+    .why_loanmeet_inv_item.first_row{
+        margin-bottom: 4rem;
+    }
+
+    .why_loanmeet_inv_item img{
+        height: 76px; 
+        margin: 0 auto;
+    }
+
+    .why_loanmeet_inv_item h4{
+        font-size: 1.2rem;
+        color: #16a6df;
+        font-weight: bold;
+    }
+
+    .why_loanmeet_inv_item p{
+        font-size: 1rem;
+        color: #283e56;
+    }
+
+/*====== Loanmeet Feature Style Block ======*/
+
+
+
+/*====== Loanmeet Product Style Block ======*/
+
+    #loanmeet-products{
+        position: relative;
+    }
+
+    .section_title {
+        color: #16a6df;
+        font-size: 2rem;
+        font-weight: bold;
+        position: absolute;
+        right: 0rem;
+        z-index: 1;
+        text-align: center;
+        left: 0rem;
+        margin: 0;
+        top: 0.6rem;
+    }
+
+    .product_bg1{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    .product_bg2{
+        position: absolute;
+        bottom: -2px;
+        left:  0px;
+        z-index: -1;
+    }
+
+    .products_block{
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+    }
+
+    .indv_prod_img,
+    .indv_prod_text{
+        padding-left: 4rem;
+    }
+
+    .indv_prod_img.img_right{
+        padding-left: 2rem;
+    }
+
+    .indv_prod_text h4{
+        color: #16a6df;
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+
+    .indv_prod_text p.credit_tenure,
+    .indv_prod_text p.prod_desc{
+        margin-bottom: 0.7rem;
+        font-size: 1rem;
+        color: #283e56;
+    }
+
+    .credit_tenure span,
+    .credit_limit span{
+        color: #16a6df;
+        font-size: 1rem;
+        font-weight: bold;
+        padding-left: 0.5rem;
+    }
+
+    .indv_prod_text p.credit_limit{
+        margin-bottom: 1.7rem;
+        color: #283e56;
+    }
+
+    .get_loan_btn{
+        display: block;
+    }
+
+    .get_loan_btn a{
+        padding: 0.6rem 1.8rem;
+        background-color: #5dcab7;
+        color: #ffffff;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 1rem;
+    }
+
+    .individual_product{
+        margin-bottom: 8rem;
+    }
+
+    .individual_product:last-child{
+        margin-bottom: 0;
+    }
+    
+/*====== Loanmeet Product Style Block ======*/
+
+
+
+/*====== Loanmeet Documents Required Style Block ======*/
+
+    #docs-required{
+        position: relative;
+        background: url(../img/svg/docs_bg.svg) no-repeat top left;
+        background-size: cover;
+        width: 100vw;
+    }
+
+    #docs-required .docs_section_title{
+        font-size: 2rem;
+        color: #1568a3;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 0.3rem;
+    }
+
+    #docs-required .doc_start_txt{
+        font-size: 1rem;
+        color: #283e56;
+    }
+
+    #docs-required .document_block{
+        margin: 2rem auto 6rem;
+    }
+
+    #docs-required .individual_doc{
+        position: relative;
+        height: 560px;
+    }
+
+    #docs-required .individual_doc p.doc_numbers{
+        font-size: 6rem;
+        font-weight: bold;
+        color: #d0e0ea;
+    }
+
+    #docs-required .individual_doc_card img{
+        margin: 0 auto 2rem;
+    }
+
+    #docs-required .individual_doc_card h4{
+        color: #1568a3;
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    #docs-required .individual_doc_card p.doc_detail{
+        color: #7c8893;
+        font-size: 1rem;
+        line-height: 24px;
+    padding-bottom: 1rem;
+    height: 260px;
+    }
+
+    #docs-required .individual_doc_card{
+        margin: 0 0.5rem;
+        padding: 1.5rem;
+        background-color: #fff;
+        border-radius: 20px;
+        position: absolute;
+        top: 6rem;
+        -webkit-transition: all 1000ms ease-in-out;
+        -webkit-transform: scale(1);
+        -ms-transition: all 1000ms ease-in-out;
+        -ms-transform: scale(1);   
+        -moz-transition: all 1000ms ease-in-out;
+        -moz-transform: scale(1);
+        transition: all 1000ms ease-in-out;
+        transform: scale(1);
+    }
+
+    #docs-required .individual_doc_card:hover{
+        z-index: 2;
+        -webkit-transition: all 1000ms ease-in-out;
+        -webkit-transform: scale(1.1);
+        -ms-transition: all 1000ms ease-in-out;
+        -ms-transform: scale(1.1);   
+        -moz-transition: all 1000ms ease-in-out;
+        -moz-transform: scale(1.1);
+        transition: all 1000ms ease-in-out;
+        transform: scale(1.1);
+    }
+
+/*====== Loanmeet Documents Required Style Block ======*/
+
+
+
+
+/*====== Loanmeet Product video and download App Style Block ======*/    
+
+    .video_block_text{
+        /*background-color: aqua;*/
+        margin-top: 0.2rem;
+    }
+
+    .video_block_text h4 {
+        font-size: 1.4rem;
+        color: #283e56;
+        font-weight: bold;
+    }   
+
+    .download_app_form input{
+        width: 54%;
+        border-radius: 0;
+        border: 1px solid #5dcab7;
+        display: inline-block;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .download_app_form a{
+        display: inline-block;
+        background-color: #5dcab7;
+        color: #ffffff;
+        border-radius: 0;
+        border: 1px solid #5dcab7;
+        box-sizing: border-box;
+        margin-left: -4px;
+        margin-top: -2px; 
+    }
+
+    .rating_stars_block{
+        margin-top: 0.8rem;
+    }
+
+    .rating_stars_block ul{
+        margin: 0;
+        padding: 0;
+    }
+
+    .rating_stars_block ul li{
+        display: inline-block;
+        margin-right: 0.5rem
+    }
+
+    .rating_textual_block{
+        margin-top: 0.3rem;
+    }
+
+    .rating_textual_block h3,
+    .rating_textual_block p {
+        display: inline-block;
+    }
+    .rating_textual_block h3 {
+        font-size: 26px;
+        color: #282c37;
+        margin-right: 0.4rem;
+        line-height: 12px;
+    }
+    .rating_textual_block p {
+        margin-bottom: 0;
+        font-size: 16px;
+        text-align: left;
+        color: #9baec8;
+    }
+    .rating_textual_block p.rating_txt {
+        display: block;
+        font-size: 16px;
+        text-align: left;
+        color: #9baec8;
+    }
+
+    .download_app_img_block{
+        margin-top: 1rem;
+    }
+
+    img.playstore{
+        display: inline-block;
+        margin-left: -12px;
+    }
+
+    img.app_store{
+        display: inline-block;
+        width: 134px;
+        height: 40px;
+    }
+
+    #product_video_block{
+        margin: 5rem 0 4.6rem; 
+    }
+
+/*====== Loanmeet Product video and download App Style Block ======*/
+
+
+
+
+/*====== Loanmeet Invest With Us Style Block ======*/
+
+    #invest_with_us{
+        position: relative;
+        background: -moz-linear-gradient(341deg, rgba(66,209,181,1) 0%, rgba(22,166,223,1) 100%); /* ff3.6+ */
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(66,209,181,1)), color-stop(100%, rgba(22,166,223,1))); /* safari4+,chrome */
+        background: -webkit-linear-gradient(341deg, rgba(66,209,181,1) 0%, rgba(22,166,223,1) 100%); /* safari5.1+,chrome10+ */
+        background: -o-linear-gradient(341deg, rgba(66,209,181,1) 0%, rgba(22,166,223,1) 100%); /* opera 11.10+ */
+        background: -ms-linear-gradient(341deg, rgba(66,209,181,1) 0%, rgba(22,166,223,1) 100%); /* ie10+ */
+        background: linear-gradient(109deg, rgba(66,209,181,1) 0%, rgba(22,166,223,1) 100%); /* w3c */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42D1B5', endColorstr='#16A6DF',GradientType=1 ); /* ie6-9 */
+        position: relative;
+        clear: both;
+        overflow: hidden;
+    }
+
+    #invest_with_us .container-fluid{
+        background: rgba(0, 0, 0, 0) url("../img/svg/invest_with_us.svg") no-repeat scroll right top / cover;
+        width: 100vw;
+        height: 500px;
+    }
+
+    .iwu_bg{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    .iwu_content_block,
+    .indv_reason_block{
+        clear: both;
+        overflow: hidden;
+    }
+
+    #invest_with_us h1{
+        text-align: center;
+        color: #ffffff;
+        font-size: 2rem;
+        font-weight: bold;
+        padding-right: 4.7em;
+        margin-bottom: 1.5em;
+    }
+
+    .indv_reason .arrow_img_block img{
+        margin: 1em 0 1em auto;
+    }
+
+    .arrow_img_text_block h4{
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .arrow_img_text_block p{
+        color: #ffffff;
+        font-size: 1rem;
+    }
+
+    .arrow_img_text_block{
+        padding: 0 2rem 0 0.7rem;
+    }
+
+    .iws_btn_block{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: -9rem;
+        margin-right: auto;
+    }
+
+    .iws_btn_block a{
+        display: block;
+        margin: 0 auto;
+        width: 11rem;
+        height: 2.6rem;
+        background-color: #fff;
+        color: #1568a3;
+        padding: 0;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 2.4rem;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 0px;
+    }
+
+/*====== Loanmeet Invest With Us Style Block ======*/
+
+
+
+
+/*====== Loanmeet News Feeds Style Block ======*/
+
+    #newsfeeds-section h1 {
+        color: #1568a3;
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 1.5em;
+    }
+    #newsfeeds-carousel .carousel-inner {
+        margin: 1.5em 0 4.5em;
+    }
+    .invd_newsfeed_item img {
+        margin: 0 auto;
+    }
+    .invd_newsfeed_item.the_economics_times {
+        margin-top: 2em;
+    }
+    .invd_newsfeed_item.knows_startups {
+        margin-top: 1.8em
+    }
+    .invd_newsfeed_item.p2p_banking {
+        margin-top: 2.4em;
+    }
+    .invd_newsfeed_item.medianama {
+        margin-top: 1.7em;
+    }
+    .invd_newsfeed_item.the_economics_times2 {
+        margin-top: 2.4em;
+    }
+    .invd_newsfeed_item.forbes {
+        margin-top: 0.8em;
+    }
+    #newsfeeds-section .carousel-inner .item{
+        -webkit-transition: -webkit-transform .8s ease-in-out;
+        -o-transition: -o-transform .8s ease-in-out;
+        transition: transform .8s ease-in-out;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-perspective: 1000px;
+        perspective: 1000px;
+        height: 75px;
+    }
+
+/*====== Loanmeet News Feeds Style Block ======*/
+
+
+
+
+/*====== Loanmeet Footer Style Block ======*/
+
+    #loanmeet-footer{
+        background: -moz-linear-gradient(341deg, rgba(66,209,181,1) 0%, rgba(22,166,223,1) 100%); /* ff3.6+ */
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(66,209,181,1)), color-stop(100%, rgba(22,166,223,1))); /* safari4+,chrome */
+        background: -webkit-linear-gradient(341deg, rgba(66,209,181,1) 0%, rgba(22,166,223,1) 100%); /* safari5.1+,chrome10+ */
+        background: -o-linear-gradient(341deg, rgba(66,209,181,1) 0%, rgba(22,166,223,1) 100%); /* opera 11.10+ */
+        background: -ms-linear-gradient(341deg, rgba(66,209,181,1) 0%, rgba(22,166,223,1) 100%); /* ie10+ */
+        background: linear-gradient(109deg, rgba(66,209,181,1) 0%, rgba(22,166,223,1) 100%); /* w3c */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42D1B5', endColorstr='#16A6DF',GradientType=1 ); /* ie6-9 */
+    }
+
+    .footer_textual_block{
+        clear: both;
+        overflow: hidden;
+    }
+
+    .footer_header_sec{
+        clear: both;
+        overflow: hidden;
+        margin: 2rem 1rem 1rem;
+    }
+
+    .footer_logo img{
+        margin-top: 0.7rem;
+    }
+
+    .footer_link_sec p{
+        color: #ffffff;
+        margin-bottom: 0.4rem;
+    }
+
+    .footer_link_sec p a{
+        color: #ffffff;
+        font-size: 1rem;
+    }
+
+    .footer_link_sec p a:hover{
+        text-decoration: none;
+    }
+
+    .footer_header_sec h4{
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .contact_number i.fa.fa-phone{
+        padding-right: 1rem;
+        font-size: 1.1rem;
+    }
+
+    .contact_number i.fa.fa-envelope{
+        padding-right: 1rem;
+    }
+
+    .contact_number i.fa.fa-map-marker{
+        padding-right: 1rem;
+        font-size: 1.4rem;
+    }
+
+
+    .contact_heading{
+        padding-left: 1.3rem;
+    }
+
+    .contact_add_margin{
+        display: block;
+        margin-left: 2.1rem;
+    }
+
+    .copyright_and_disclaimer_block{
+        color: #ffffff;
+        margin: 3.5rem auto 1rem;
+    }
+
+    .social_icons{
+        margin: 3.5rem auto 1rem;
+    }
+
+    p.social_icons_cover{
+        color: #1568a3;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 0.5rem;
+        font-size: 1rem;
+        background-color: #fff;
+        border: 1px solid #ffffff;
+        width: 32px;
+        height: 32px;
+        text-align: center;
+        line-height: 32px;
+        border-radius: 20px;
+    }
+
+/*====== Loanmeet Footer Style Block ======*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#product_banner_section img{
+    margin: 2.5rem auto;
+}
+
+.product_banner_content{
+    font-size: 1rem;
+    /*margin-top: 2rem;*/
+}
+
+.product_banner_content .apply_btn{
+    margin: 1rem auto 2rem;
+    text-align: center;
+    clear: both;
+    overflow: hidden;
+    display: inline-block;
+} 
+
+
+
+
+    #what_we_offer .row{
+        padding: 0;
+    }
+
+#what_we_offer{
+        position: relative;
+        background-color: #e6ecee;
+    }
+
+    #what_we_offer .iwu_bg{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    #what_we_offer .iwu_content_block,
+    #what_we_offer .indv_reason_block{
+        clear: both;
+        overflow: hidden;
+    }
+
+    #what_we_offer .indv_reason_block{
+        margin-bottom: 3rem;
+    }
+
+    #what_we_offer h1{
+        text-align: center;
+        color: #1568a3;
+        font-size: 2rem;
+        font-weight: bold;
+        /*padding-right: 7em;*/
+        margin-bottom: 1.5em;
+    }
+
+    #what_we_offer .indv_reason img{
+        margin: 0em auto;
+        width: 150px;
+        height: 150px;
+    }
+
+    #what_we_offer .arrow_img_text_block h4{
+        color: #1568a3;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    #what_we_offer .arrow_img_text_block p{
+        color: #283e56;
+        font-size: 1rem;
+    }
+
+    #what_we_offer .arrow_img_text_block{
+        padding: 0 1rem;
+    }
+
+
+
+
+
+    #why_us{
+        position: relative;
+        /*background: url(../img/svg/docs_bg.svg) no-repeat top left;
+        background-size: cover;*/
+        width: 100vw;
+    }
+
+    .why_us_bg{
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 17%;
+    }
+
+     #why_us .docs_section_title{
+        font-size: 2rem;
+        color: #1568a3;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 0.3rem;
+    }
+
+     #why_us .doc_start_txt{
+        font-size: 1rem;
+        color: #283e56;
+    }
+
+     #why_us .document_block{
+        margin: 4.5rem auto 10rem;
+    }
+
+     #why_us .individual_doc{
+    }
+
+     #why_us .individual_doc p.doc_numbers{
+        font-size: 6rem;
+        font-weight: bold;
+        color: #d0e0ea;
+    }
+
+     #why_us .individual_doc_card img{
+        margin: 0 auto 2rem;
+        width: 50%;
+    }
+
+    #why_us .individual_doc_card img.easy_emi,
+    #why_us .individual_doc_card img.shopping_bag{
+        margin: 0 auto 0rem;
+        width: 70%;
+        height: 167px;
+    }
+
+     #why_us .individual_doc_card h4{
+        color: #1568a3;
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+
+     #why_us .individual_doc_card p.doc_detail{
+        color: #7c8893;
+        font-size: 1rem;
+        line-height: 24px;
+        padding-bottom: 2rem;
+        height: 106px;
+    }
+
+     #why_us .individual_doc_card{
+        margin: 0 0.5rem;
+        padding: 1.5rem;
+        background-color: #fff;
+        border-radius: 20px;
+        z-index: 2;
+        -webkit-box-shadow: 0px -1px 27px 1px rgba(135, 146, 150, 0.9);
+        -moz-box-shadow:    0px -1px 27px 1px rgba(135, 146, 150, 0.9);
+        box-shadow:         0px -1px 27px 1px rgba(135, 146, 150, 0.9);
+    }
+
+    #why_us .individual_doc_card:hover{
+        
+    }
+
+
+    #eligibility{
+        position: relative;
+        background-color: #e6ecee;
+    }
+
+
+    .eligibility_title{
+        font-size: 2rem;
+        color: #1568a3;
+        font-weight: bold;
+        text-align: center;
+        margin: 2rem auto 3rem;
+    }
+
+    .eligibility_indv_item.title .eligibility_indv_item_text p{
+        font-size: 1.5rem;
+    color: #4ca7df;
+    font-weight: bold;
+    height: auto;
+    margin: 1rem 0;
+    }
+
+    .eligibility_indv_item,
+    .eligibility_content_1st_row,
+    .eligibility_content_2nd_row{
+            clear: both;
+    overflow: hidden;
+    /*background-color: red;*/
+        margin-bottom: 2rem;
+    }
+
+    .eligibility_indv_item{
+        margin-bottom: 2rem;
+    }
+
+    .eligibility_indv_item_img{
+        vertical-align: middle;
+            /*background-color: aliceblue;*/
+    }
+    .eligibility_indv_item_img img{
+            height: 40px;
+            margin: 0 auto;
+    }
+
+    .eligibility_indv_item_text{
+        vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 40px;
+    box-sizing: border-box;
+    /*background-color: pink;*/
+    }
+
+    .eligibility_content_2nd_row{
+        /*margin-top: 1rem;*/
+    }
+
+    .business_vintage .eligibility_indv_item_img img,
+    .business_turnover .eligibility_indv_item_img img{
+        margin: 0.5rem auto;
+    }
+
+    .business_vintage .eligibility_indv_item_text,
+    .business_turnover .eligibility_indv_item_text{
+        height: 56px;
+    }
+
+    .eligibility_indv_item_text p{
+        font-size: 1.4rem;
+    font-weight: lighter;
+    word-spacing: 2px;
+    margin: 0;
+    }
+
+
+    .eligibility_title.avil_loan_txt{
+        margin: 4rem auto 2rem;
+    }
+
+    #product_how_it_works .download_app_form .form-group{
+            margin: 0rem auto 8rem;
+    width: 360px;
+    }
+
+    #product_how_it_works{
+        position: relative;
+    }
+
+    .product_how_it_works_bg{
+        position: absolute;
+        top: -2px;
+        right: 0;
+        width: 19%;
+    }
+    
+    #product_how_it_works .download_app_form input{
+            width: 68%;
+            height: 40px;
+    }
+
+    #product_how_it_works .download_app_form a{
+                height: 40px;
+    line-height: 24px;
+    }
+
+
+
+
+
+
+/*About US */
+
+.about_content{
+    margin: 3rem auto 2rem;
+}
+
+#about-us-section h3.about_content_heading{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.mission_and_vision_blk{
+    margin: 2rem auto;    
+}
+
+#team_block{
+    margin: 0rem auto;    
+}
+#team_block a {
+    display: inline-block;
+    clear: both;
+    overflow: hidden;
+        border-radius: 50%;
+}
+#counter{
+    margin: 0rem auto 2rem;      
+}
+
+#about-us-section p{
+   text-align: justify;
+    line-height: 26px;
+    font-size: 1rem;
+    color: #283e56;
+    margin-bottom: 1rem; 
+}
+
+
+/*FQA */
+
+
+.center-title {
+    margin: 3rem auto 5rem;
+    text-align: center;
+    position: relative;
+    padding-bottom: 0;
+}
+
+.center-title h2 {
+    color: #1568a3;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    word-spacing: 6px;
+    letter-spacing: 1px;
+    margin-bottom: 0.3rem;
+}
+
+.center-title p {
+    font-size: 1rem;
+    color: #283e56;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.center-title:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -1rem;
+    width: 100px;
+    height: 2px;
+    margin-left: -50px;
+    background: #4aa3df;
+}
+
+.faq_blk {
+    margin-bottom: 1rem;
+}
+
+.faq-box h4 {
+    font-size: 21px;
+    line-height: 30px;
+    margin-bottom: 4px;
+}
+
+.faq-box p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+/*.card-accrodions .card {
+    margin-bottom: 6px;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}*/
+
+/*.card .card-header {
+    padding: 0px;
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+    margin-bottom: 0;
+    background-color: #f7f7f9;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}*/
+
+/*.mb-0 {
+    margin-bottom: 0!important;
+}*/
+
+/*.card .card-header a {
+    display: block;
+    position: relative;
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #4aa3df;
+}*/
+
+/*.card .card-header a:after {
+    content: "\f2d7";
+    display: inline-block;
+    font-family: "Ionicons";
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 15px;
+}*/
+
+/*.card-block {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}*/
+
+
+
+ .panel-group .panel {
+        border-radius: 0;
+        box-shadow: none;
+        border-color: #EEEEEE;
+    }
+
+    .panel-default > .panel-heading {
+        padding: 0;
+        border-radius: 0;
+        color: #fff;
+        background: -moz-linear-gradient(341deg, rgba(66,209,181,1) 0%, rgba(22,166,223,1) 100%); /* ff3.6+ */
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(66,209,181,1)), color-stop(100%, rgba(22,166,223,1))); /* safari4+,chrome */
+        background: -webkit-linear-gradient(341deg, rgba(66,209,181,1) 0%, rgba(22,166,223,1) 100%); /* safari5.1+,chrome10+ */
+        background: -o-linear-gradient(341deg, rgba(66,209,181,1) 0%, rgba(22,166,223,1) 100%); /* opera 11.10+ */
+        background: -ms-linear-gradient(341deg, rgba(66,209,181,1) 0%, rgba(22,166,223,1) 100%); /* ie10+ */
+        background: linear-gradient(109deg, rgba(66,209,181,1) 0%, rgba(22,166,223,1) 100%); /* w3c */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42D1B5', endColorstr='#16A6DF',GradientType=1 ); /* ie6-9 */
+        border-color: #EEEEEE;
+    }
+
+    .panel-title {
+        font-size: 14px;
+    }
+
+    .panel-title > a {
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .more-less {
+        float: right;
+        color: #ffffff;
+    }
+
+    .panel-default > .panel-heading + .panel-collapse > .panel-body {
+        border-top-color: #EEEEEE;
+    }
+
+    #terms-section p,
+    #terms-section ol ol li,
+    #privacy-section p,
+    #privacy-section ol ol li{
+        font-size: 1rem;
+        line-height: 26px;
+        margin-bottom: 0.6rem;
+    }
+
+
+    /*testimonials*/
+
+    .testimonials.skin-bg{
+        background-color: #e6ecee;
+        padding-bottom: 4rem;
+    }
+
+    .feedback-box {
+        position: relative;
+        background: #ffffff;
+        padding: 20px;
+        margin-bottom: 20px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        border-radius: 3px;
+        height: 140px;
+    }
+
+    .feedback-box:after {
+        top: 100%;
+        left: 45px;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+        border-color: rgba(255, 255, 255, 0);
+        border-top-color: #ffffff;
+        border-width: 12px;
+        margin-left: -12px;
+    }
+
+    .testi-info img{
+        width: 90px;
+        height: 60px;
+        border-radius: 50%;
+    }
+
+    .testi-info .content h4{
+        margin-bottom: 0.4rem;
+    }
+
+    .testimonials-grey .feedback-box {
+        position: relative;
+        background: #e6ecee;
+        padding: 20px;
+        margin-bottom: 20px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        border-radius: 3px;
+        height: 160px;
+    }
+
+    .testimonials-grey .feedback-box:after {
+        top: 100%;
+        left: 45px;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+        border-color: rgba(255, 255, 255, 0);
+        border-top-color: #e6ecee;
+        border-width: 12px;
+        margin-left: -12px;   
+    }
+
+    .testimonials_slider_content img{
+        margin: 0 auto 1rem;
+        border-radius: 50%;
+    }
+
+    #slider-testimonials{
+        color: #fff;
+        background: -moz-linear-gradient(341deg, rgba(66,209,181,1) 0%, rgba(22,166,223,1) 100%); /* ff3.6+ */
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(66,209,181,1)), color-stop(100%, rgba(22,166,223,1))); /* safari4+,chrome */
+        background: -webkit-linear-gradient(341deg, rgba(66,209,181,1) 0%, rgba(22,166,223,1) 100%); /* safari5.1+,chrome10+ */
+        background: -o-linear-gradient(341deg, rgba(66,209,181,1) 0%, rgba(22,166,223,1) 100%); /* opera 11.10+ */
+        background: -ms-linear-gradient(341deg, rgba(66,209,181,1) 0%, rgba(22,166,223,1) 100%); /* ie10+ */
+        background: linear-gradient(109deg, rgba(66,209,181,1) 0%, rgba(22,166,223,1) 100%); /* w3c */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42D1B5', endColorstr='#16A6DF',GradientType=1 ); /* ie6-9 */
+        /*padding-bottom: 3rem;*/
+        position: relative;
+    }
+
+    #slider-testimonials .carousel-inner{
+        margin-top: 4.5rem;
+    }
+
+    .testimonials_slider_content p{
+        font-size: 1.1rem;
+        line-height: 24px;
+        margin-bottom: 1rem;
+    }
+
+    .testimonials_slider_content h4{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    #testimonials-carousel{
+        clear: both;
+        overflow: hidden;
+        padding-bottom: 5rem;
+    }
+
+    #testimonials-carousel .carousel-indicators {
+        bottom: 45px;
+    }
+
+    #testimonials-carousel .carousel-indicators .active {
+         width: 12px; 
+         height: 12px; 
+         background-color: #FFFFFF; 
+        margin: 0 0.2rem;
+    }
+
+
+    /*Get Loan form*/
+
+    #get_loan_form_section,
+    #emi_calculator_form_section,
+    #investors_form_section{
+        background-color: #e6ecee;
+        position: relative;
+    }
+
+    .form_block{
+            margin-top: 6rem;
+    margin-bottom: 6rem;
+    }
+
+
+    .misc-box {
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    border-top: 5px solid rgba(0, 0, 0, 0.1);
+    padding: 25px 50px 25px 50px;
+    margin-bottom: 20px;
+    clear: both;
+    overflow: hidden;
+}
+
+.misc-box hr{
+    margin: 2rem 1rem;
+}
+
+.misc-box .get_loan_title{
+    margin-bottom: 0;
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#registration-form{
+        margin-bottom: 20px;
+}
+
+
+#registration-form input.form-control,
+#registration-form select.form-control {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #eee;
+    background-color: #fefefe;
+    min-height: 41px;
+    margin-bottom: 1.6rem;
+}
+
+#registration-form .form-group label{
+        margin-bottom: 0.6rem;
+}
+
+#registration-form .checkbox,
+#registration-form #get-loan {
+    margin-bottom: 1.6rem;
+}
